@@ -40,5 +40,6 @@ tags:
     1. 需要注意的是一般都是在本地代码中第一次推送的时候 需要我们手动给他加上参数-u
     2. 后面再推送至远程仓库的时候就可以不需要用到我们的-u参数了
   + git remote add origin  仓库地址：重新添加远程仓库地址建立链接
+  + git pull --rebase origin master 获取远程库与本地同步合并(如果远程库不为空必须做这一步，否则后面的提交会失败)
   + git remote remove origin：删除远程仓库配置
   + git rm --cached "文件的位置或者路径" ：删除暂存区内容
