@@ -43,3 +43,9 @@ tags:
   + git pull --rebase origin master 获取远程库与本地同步合并(如果远程库不为空必须做这一步，否则后面的提交会失败)
   + git remote remove origin：删除远程仓库配置
   + git rm --cached "文件的位置或者路径" ：删除暂存区内容
+  + git fetch : 从远程仓库下载新分支与数据
+  + git pull ：从远端仓库提取数据并尝试合并到当前分支
+  
+  Git 参考手册：http://gitref.justjavac.com/
+  
+  ​	
